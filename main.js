@@ -1,4 +1,4 @@
-const ok=['../blozhik/img/6680.JPG','../blozhik/img/DSC_6676.JPG','../blozhik/img/DSC_6677.JPG'];
+const ok=['img/DSC_6729.JPG','img/DSC_6764.JPG','img/DSC_6934.JPG'];
 let aj=+0;
     document.querySelector('body > main > img').addEventListener('click',()=>{
       console.log('ok');
@@ -10,5 +10,3 @@ let aj=+0;
       }
     })
     ok.forEach(element=>console.log(element));
-
-    //OK
