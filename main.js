@@ -1,7 +1,7 @@
 const ok=['img/DSC_6729.JPG','img/DSC_6764.JPG','img/DSC_6934.JPG'];
 let aj=+0;
     document.querySelector('body > main > img').addEventListener('click',()=>{
-      console.log('ok');
+      console.log('Excellent gallery on JS a click flipping');
       aj++;
       document.querySelector('img').setAttribute('src',ok[aj]);
       if(aj===ok.length){
